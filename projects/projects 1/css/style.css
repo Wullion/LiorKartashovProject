@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  direction: rtl;
+  font-family: "Heebo", sans-serif;
+}
+
+.bgup {
+  width: 100%;
+  height: 590px;
+  background-image: url(../image/Path\ 15.png);
+  background-position: center center;
+  position: relative;
+}
+
+.form-box {
+  height: 643px;
+  background-color: rgba(26, 26, 26, 0.7294117647);
+  position: absolute;
+  top: 150px;
+  right: 300px;
+  padding: 35px 80px;
+  color: #FFFFFF;
+}
+
+.form-box h1 {
+  font-size: 36px;
+  font-weight: 900;
+  padding-bottom: 20px;
+  margin-top: 30px;
+}
+
+.form-box p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.form {
+  margin-top: 40px;
+}
+
+.form label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.box {
+  width: 100%;
+  height: 50px;
+  border: 1px groove #D31C75;
+}
+
+.submit {
+  padding: 10px 50px;
+  background-color: #D31C75;
+  color: #FFFFFF;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 1300px) {
+  .form-box {
+    right: 51.5%;
+    transform: translate(50%);
+  }
+}
+@media screen and (max-width: 800px) {
+  .form-box {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .form-box {
+    width: 50%;
+  }
+  .form-box p {
+    font-size: 100%;
+  }
+  .form-box h {
+    font-size: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */

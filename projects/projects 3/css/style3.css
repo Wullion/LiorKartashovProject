@@ -1,0 +1,104 @@
+* {
+    font-family: "Assistant", sans-serif;
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-image {
+    background-image: url(../image/Path\ 15.png);
+    height: 70vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.title-box {
+margin-bottom: 100px;
+margin: 0, 30px;
+}
+
+.title-box h1 {
+    color: #D3E10E;
+    font-size: 86px;
+    font-weight: bold;
+}
+
+.bg-image p {
+    color: #F9F9F9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.form-control {
+    width: 420px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: #F6F6F6;
+    border: none;
+    border-bottom: 5px solid #D3E10E;
+}
+
+.row label {
+    color: #011560;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#btn {
+    color: #011560;
+    background-color: #D3E10E;
+    height: 50px;
+    width: 170px;
+    font-size: 22px;
+    font-weight: bold;
+    border: none;
+    margin: 23px -10px;
+
+}
+
+
+
+@media screen and (max-width: 990px) {
+    .row {
+        display: grid;
+        justify-content: center;
+        margin: 20px;
+    }
+
+    .row input {
+        margin-bottom: 30px;
+        margin: 0, 30px;
+    }
+
+    #btn {
+        width: 410px;
+        margin: 0 10px
+    }
+    .title-box h1{
+        font-size: 80px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .title-box h1 {
+        font-size: 55px;
+    }
+    .title-box p{
+        font-size: 20px;
+    }
+    .row input{
+        width: 250%;
+        margin: 0, 20px;
+    }
+}

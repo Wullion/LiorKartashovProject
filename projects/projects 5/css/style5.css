@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&family=Satisfy&family=Varela+Round&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    direction: rtl;
+    font-family: "Heebo", sans-serif;
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    border-bottom: 10px solid #FDBD03;
+    border-image: linear-gradient(to right, #FDBD03 68%, transparent 50%) 100% 1;
+  } 
+                                  /* Whatsup Image */
+  .up-img{
+    position: absolute;
+    top: 200px;
+    left: 150px;
+  }
+  .up-bgsize{
+    background-color: #FDBD03;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+  }
+  .up-img img{
+    padding: 16px;
+  }
+                                  /* Form Side */
+  .box-1z{
+    margin: 0 30px;
+  }
+  .box-1 h1{
+    font-size: 66px;
+    font-weight: 900;
+    color: #FDBD03;
+
+  }
+  .box-1 p{
+    font-size: 20px;
+    color: #020253;
+    padding-bottom: 25px;
+  }
+  form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .box-1 label{
+    font-size: 16px;
+    font-weight: bold;
+    color: #2C2C2C;
+
+  }
+  .box-1 input{
+    background-color: #E5EEFF;
+    height: 50px;
+    width: 420px;
+    margin-left: 20px;
+    border: none;
+    border-bottom: 5px solid #FDBD03;
+    
+  }
+  .lower-form input{
+    width: 864px;
+    height: 140px;
+  }
+  input[type=button]{
+    background-color: #FDBD03;
+    color: #000000;
+    font-size: 22px;
+    font-weight: bold;
+    width: 166px;
+    height: 50px;
+    margin-top: 15px;
+  }
+                                  /* Image Side */
+  .box-2 img{
+    width: 35vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+                                  /* Footer Icons */
+  .footer-icon{
+    position: absolute;
+    display: flex;
+    bottom: 20px;
+    left: 150px;
+  }
+  .up-bgsize i{
+    padding: 27px;
+    font-size: 40px;
+  }
+  #facebook{
+    padding-right: 31px;
+  }
+
+  @media screen and (max-width: 1200px){
+    .box-2 img{
+      width: 20vh;
+    }
+  }
+
+  @media screen and (max-width: 1050px){
+    .container{
+        flex-wrap: wrap;
+        align-content: center;
+        border: none;
+        border-bottom: 10px solid #FDBD03;
+        border-top: 10px solid #FDBD03;
+    }
+    .up-img{
+      display: none;
+    }
+    .ineer-box{
+        display: flex;
+        justify-content: center;
+    }
+    .box-2 img{
+        width: 20%;
+      }
+
+      .box-1{
+        width: 50%;
+      }
+
+      form{
+        justify-content: center;
+      }
+    .box-1 h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .box-1 p{
+        font-size: 15px;
+        text-align: center;
+    }
+    .box-1 label{
+        font-size: 15px;
+    }
+    .box-1 input{
+        height: 34px;
+    }
+    .lower-form input{
+        width: 424px;
+        height: 140px;
+    }
+    input[type=button]{
+        width: 424px;
+        font-size: 20px;
+        padding-top: 6px;
+        height: 45px;
+    }
+    .footer-icon{
+      position: static;
+      justify-content: center;
+      padding-top: 85px;
+    }
+    .up-bgsize{
+      height: 40px;
+      width: 40px;
+      margin: 10px;
+    }
+    .up-bgsize i{
+      font-size: 15px;
+      padding-right: 15px;
+      padding-top: 14px;
+    }
+    #facebook{
+      padding-right: 16px;
+      padding-top: 13px;
+    }
+  }
+
+  @media screen and (max-width: 440px){
+    .box-1 input{
+      margin-left: 0;
+    }
+    .box-1 input{
+      width: 300px;
+    }
+    .footer-icon{
+      margin-bottom: 60px;
+    }
+  }
+  @media screen and (max-width: 400px){
+    .box-1{
+      
+    }
+    .box-1 input{
+      margin-left: 0;
+    }
+    .box-1 input{
+      width: 300px;
+    }
+    .footer-icon{
+        margin-bottom: 200px;
+        padding: 0;
+
+    }
+  input[type=button]{
+    height: 40px;
+  }
+}

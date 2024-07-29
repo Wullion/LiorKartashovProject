@@ -1,0 +1,68 @@
+@import './var';
+
+*{
+    margin: 0;
+    direction: rtl;
+    font-family: "Heebo", sans-serif;
+}
+.bgup {
+    @include bigsize;
+}
+
+.form-box{
+    @include form;
+}
+
+.form-box h1{
+    @include h1;
+}
+
+.form-box p{
+    @include p;
+}
+
+.form{
+    margin-top: 40px
+}
+
+.form label{
+    @include label;
+}
+
+.box{
+    @include input;
+}
+
+.submit{
+    @include btn;
+}
+
+
+
+
+@media screen and (max-width: 1300px) {
+    .form-box{
+        right: 51.5%;
+        transform: translate(50%);
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .form-box{
+        width: 50%;
+
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    .form-box{
+        width: 50%;
+    }
+    .form-box p{
+        font-size: 100%;
+    }
+    .form-box h{
+        font-size: 100%;
+    }
+}
