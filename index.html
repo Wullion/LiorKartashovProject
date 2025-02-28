@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="./script/script.js"></script>
     <title>My Project</title>
 </head>
 
@@ -37,6 +38,7 @@
                         <li class="nav-item ms-auto"><a href="#about-me" class="nav-link">אודות</a></li>
                         <li class="nav-item ms-auto"><a href="#gallery" class="nav-link">שירותים</a></li>
                         <li class="nav-item ms-auto"><a href="#contact-me" class="nav-link">צור קשר</a></li>
+                        <li class="nav-item ms-auto"><a href="#contact-me" class="nav-link"></a></li>
                     </ul>
                 </div>
             </div>
@@ -50,7 +52,7 @@
                 <p>
                     תיק עבודות על כל הנושאים שלמדנו במהלך הקורס עד כו. <br>
                     בתיק עבודות זה אתם תיראו שימוש בשפות:
-                    HTML, CSS, BootStrap ו-SASS.
+                    HTML, CSS, BootStrap, SASS, Javascript, Oop.
                 </p>
             </div>
         </div>
@@ -85,12 +87,12 @@
         </div>
     </div>
 
-    <section class="section-3" id="gallery">
+    <section class="section-3">
         <h2>עבודות נבחרות</h2>
         <p>לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות<br> המשמש “ממלא מקום” בעת עריכה, בתחום.</p>
         <div class="card-conteiner">
             <div class="card">
-                <img src="image/follow you .png" alt="">
+                <img src="image/follow you .png" alt="Project Picture" id="gallery">
                 <div class="card-content">
                     <h3>תן לנו להוביל אותך קדימה</h3>
                     <p>בפרויקט זה נעשה שימוש בשפות HTML, CSS ו-SASS.</p>
@@ -103,7 +105,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="image/Coffee .png" alt="">
+                <img src="image/Coffee .png" alt="Project Picture" id="gallery">
                 <div class="card-content">
                     <h3>קפה טוב לבוקר טוב</h3>
                     <p>בפרויקט זה נעשה שימוש בשפות HTML, CSS.</p>
@@ -115,7 +117,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="image/get you to go.png" alt="Project Picture">
+                <img src="image/get you to go.png" alt="Project Picture" id="gallery">
                 <div class="card-content">
                     <h3>תן לנו להוביל אותך קדימה</h3>
                     <p>בפרויקט זה נעשה שימוש בשפות HTML, CSS ו-BOOTSTRAP.</p>
@@ -128,7 +130,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="image/project-landing-page-1.PNG" alt="Project picture">
+                <img src="image/project-landing-page-1.PNG" alt="Project picture" id="gallery">
                 <div class="card-content">
                     <h3>כאן ועכשיו</h3>
                     <p>בפרויקט זה נעשה שימוש בשפות HTML, CSS</p>
@@ -140,7 +142,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="image/Free-advise-picture.png" alt="">
+                <img src="image/Free-advise-picture.png" alt="Project Picture" id="gallery">
                 <div class="card-content">
                     <h3>ייעוץ חינם</h3>
                     <p>בפרויקט זה נעשה שימוש בשפות HTML, CSS</p>
@@ -152,7 +154,7 @@
                 </div>
             </div>
             <div class="card">
-                <img src="image/transition page.png" alt="">
+                <img src="image/transition page.png" alt="Project Picture">
                 <div class="card-content">
                     <h3>לגלות את העולם</h3>
                     <p>בפרויקט זה נעשה שימוש בשפות HTML, CSS</p>
@@ -163,7 +165,90 @@
                     <a href="projects/projects 6/transtion 6/intro.html" class="btn">לעמוד הפרויקט >></a>
                 </div>
             </div>
+        </section>
+    <section class="section-4">
         </div>
+        <h2>עבודות Javascript</h2>
+        <p id="color">לורם איפסום או בקיצור ליפסום, הוא מלל מקובל וחסר משמעות<br> המשמש “ממלא מקום” בעת עריכה, בתחום.</p>
+        <div class="card-conteiner">
+            <div class="card">
+                <img src="image/countries.jpg" alt="Project Picture" id="gallery">
+                <div class="card-content">
+                    <h3>Countries project</h3>
+                    <p>פרוייקט המראה את כל מדינות העולם</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                    </div>
+                    <a href="JS Project/Countries project/tanstion 1/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/math-game.png" alt="Project Picture">
+                <div class="card-content">
+                    <h3>Math Game</h3>
+                    <p>משחק מתמטיקה</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                    </div>
+                    <a href="JS Project/mathGame/tanstion 2/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/memory-game.jpeg" alt="Project Picture" id="gallery">
+                <div class="card-content">
+                    <h3>Memory Game</h3>
+                    <p>משחק זיכרון בקלפים</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                    </div>
+                    <a href="JS Project/memoryGame/tanstion 3/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/shoping-cart.jpeg" alt="Project picture" id="gallery">
+                <div class="card-content">
+                    <h3>Shoping Cart</h3>
+                    <p>בנו רשימת קניות אם אפשרות הוספת מחירים ושינויים</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                    </div>
+                    <a href="JS Project/SHOPING/tanstion 4/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/tic-tac-game.jpg" alt="Project Picture" id="gallery">
+                <div class="card-content">
+                    <h3>Tic Tac To</h3>
+                    <p>משחק איקס עיגול</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                    </div>
+                    <a href="JS Project/tic tac toe/tanstion 5/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/user-login.jpg" alt="Project Picture" id="gallery">
+                <div class="card-content">
+                    <h3>User Login</h3>
+                    <p>בניית משתמש והתחברות אם אופציה לאפשרויות - ADMIN</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                        <img src="image/img-OOP.png" alt="Javascript-Oop icon">
+                    </div>
+                    <a href="JS Project/User Login/tanstion 6/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="image/weather.jpg" alt="Project Picture" id="gallery">
+                <div class="card-content">
+                    <h3>Weather Project</h3>
+                    <p>תחזית כלל עולמית</p>
+                    <div class="project-icon">
+                        <img src="image/img-JS.png" alt="Javascript icon">
+                    </div>
+                    <a href="JS Project/weather-project/tanstion 7/intro.html" class="btn">לעמוד הפרויקט >></a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -177,7 +262,7 @@
                     <h3>צור קשר</h3>
                     <p>כאן תוכלו ליצור איתי קשר.<br>
                     תמלאו את הפרטים שלכם ואחזור אליכם בהקדם.</p>
-                    <form>
+                    <form id="contactForm">
                         <label>שם מלא</label><br>
                         <input type="text"><br>
                         <label>דוא"ל</label><br>
@@ -186,15 +271,14 @@
                         <input type="tel"><br>
                         <label>תוכן ההודעה</label><br>
                         <input type="text"><br>
-                        <button>שליחה</button>
+                        <button type="submit">שלח</button>
                 </div>
                 </form>
             </div>
         </div>
         <div class="icon-footer">
             <div class="footer-image">
-                <div class="middle-icon"><img src="image/Icon material-location-on.svg" alt="Location icon"><span>קרית
-                        שמונה <br>הורדים 122</span></a></div>
+                <div class="middle-icon"><img src="image/Icon material-location-on.svg" alt="Location icon"><span>קריית שמונה</span></a></div>
                 <div class="middle-icon"><img src="image/Icon simple-email.svg"
                         alt="Email icon"><span>lokoko1993@gmail.com</span></div>
                 <div class="middle-icon"><img src="image/Icon simple-whatsapp.svg"

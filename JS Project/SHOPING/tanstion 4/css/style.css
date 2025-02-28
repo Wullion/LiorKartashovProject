@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+  background-color: #FFFFFF;
+  border-top: 3.17px solid #1AE0EC;
+
+}
+
+#profile {
+  font-size: 25px;
+  font-family: "Satisfy", cursive;
+}
+
+#nav-head {
+  direction: ltr;
+}
+
+#nav-name {
+  font-family: "Heebo", sans-serif;
+  font-size: 25px;
+  direction: rtl;
+}
+
+#nav-name a {
+  padding: 0px 30.5px;
+}
+
+#nav-name a:hover {
+  color: #1AE0EC;
+  font-weight: bold;
+  background-color: whitesmoke;
+}
+
+#nav-btn:hover {
+  background-color: #1AE0EC;
+}
+
+#section-1 {
+  height: 350.56px;
+  width: 100%;
+  background-color: #13E8F163;
+  text-align: center;
+  font-weight: bolder black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+}
+
+#section-1 h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#section-1 p {
+  font-size: 20px;
+  font-weight: medium;
+  margin: 0;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.btn a {
+  margin: 20px;
+  padding: 5px 10px;
+  color: black;
+  background-color: #1AE0EC;
+  border-radius: 25px;
+  border: 1px solid #1AE0EC;
+  font-weight: bold;
+  font-size: 15px;
+  box-shadow: 0 1px 0 2px gray;
+  text-decoration: none;
+}
+
+
+.icon-conteiner {
+  direction: ltr;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon>img {
+  transition: all 1.1s;
+  mix-blend-mode: multiply;
+  height: 100px;
+  width: 100px;
+}
+
+.icon>img:hover {
+  transform: scale(1.2);
+}
+
+.background {
+  background-color: #EBFEFF;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.background img {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 25rem;
+  mix-blend-mode: multiply;
+}
+
+.footer-end {
+  background-color: #000000;
+  border-bottom: 5px solid #1AE0EC;
+  display: flex;
+  justify-content: space-between;
+  direction: ltr;
+  padding: 5px 10px;
+}
+
+.footer-r {
+  color: #1AE0EC;
+  font-size: 20px;
+}
+
+.footer-l {
+  color: #1AE0EC;
+  font-weight: 200;
+}
+
+@media  screen and (max-width: 992px){
+  #section-1 h1{
+    font-size: 50px;
+  }
+}
+
+@media  screen and (max-width: 466px){
+  #section-1 h1{
+    font-size: 40px;
+  }
+}
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="he">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>משחק מתמטי</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <script src="./script/script.js" type="module"></script>
+  </head>
+  <body dir="rtl">
+    <div id="level-buttons" class="container">
+      <h1>בחר רמת קושי:</h1>
+      <button data-level="1">רמה 1</button>
+      <button data-level="2">רמה 2</button>
+      <button data-level="3">רמה 3</button>
+    </div>
+
+    <div id="game" class="container" style="display:none;">
+      <h2>שאלה:</h2>
+      <p id="question"></p>
+      <div id="answer-buttons">
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+        <button class="answer-btn"></button>
+      </div>
+      <p id="score">ניקוד: 0</p>
+    </div>
+
+    <button id="restart-button" class="restart-btn" style="display:none;">התחל מחדש</button>
+
+    
+  </body>
+</html>
