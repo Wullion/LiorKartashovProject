@@ -1,8 +1,9 @@
+/* Existing styles */
 .register-form,
 .login-form {
   display: flex;
   width: 100%;
-  gap: 10px;
+  gap: 20px;
 }
 
 .form-control {
@@ -21,6 +22,7 @@
 tbody {
   text-align: center;
 }
+
 .popup {
   position: fixed;
   top: 0;
@@ -72,4 +74,43 @@ tbody {
 
 .popup-content button#cancel {
   background-color: #f44336;
+}
+
+@media (max-width: 768px) {
+  .register-form,
+  .login-form {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  #users-table {
+    width: 100%;
+  }
+
+  .popup-content {
+    width: 90%;
+  }
+
+  .popup-content button {
+    width: 100%;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .popup-content {
+    padding: 10px;
+  }
+
+  .popup-content h2 {
+    font-size: 1.2em;
+  }
+
+  .popup-content input {
+    padding: 6px;
+  }
+
+  .popup-content button {
+    padding: 6px;
+  }
 }
